@@ -9,6 +9,14 @@ public class Animal {
         System.out.println("¡Haciendo ruido!");
     }
 
+    public void accion() {
+        System.out.println("¡Movimiento!");
+    }
+    
+    public void segunSuAlimentacion() {
+        System.out.println("¡Comida!");
+    }
+    
     public String getNombre() {
         return nombre;
     }
